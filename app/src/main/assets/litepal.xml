@@ -1,0 +1,18 @@
+<litepal>
+<!--    数据库指定cool_weather  版本指定为1，将三个实体类表映射到列表-->
+    <dbname value="cool_weather"></dbname>
+    <version value="1"/>
+    <list>
+        <mapping class="com.example.weatherforecast.DB.Province"></mapping>
+        <mapping class="com.example.weatherforecast.DB.City"></mapping>
+        <mapping class="com.example.weatherforecast.DB.County"></mapping>
+
+    </list>
+
+
+
+
+
+
+
+</litepal>
